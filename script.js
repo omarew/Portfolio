@@ -21,18 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form values
-            const inputs = this.querySelectorAll('input, textarea');
-            const formData = {};
-            inputs.forEach(input => {
-                formData[input.name || input.placeholder] = input.value;
-            });
-
-            // Show success message
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
+            // Let FormSubmit handle the submission
+            // Show success message after a brief delay
+            setTimeout(() => {
+                alert('Thank you for your message! I will get back to you soon.');
+            }, 500);
         });
     }
 
