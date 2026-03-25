@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Starfield background -->
+    <div class="starfield"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-rocket"></i> Abdul
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Abdul's Portfolio">Abdul's Portfolio</h1>
+            <p class="subtitle">Full Stack Developer | Creative Problem Solver</p>
+            <div class="cta-buttons">
+                <a href="#about" class="btn btn-primary">Explore My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="floating-objects">
+            <div class="planet planet-1"></div>
+            <div class="planet planet-2"></div>
+            <div class="planet planet-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate developer with a curiosity that stretches across the digital universe. I love building elegant solutions to complex problems and creating meaningful user experiences.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or contemplating the vastness of the cosmos.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <h3>Senior Developer</h3>
+                        <span class="company">Tech Innovations Co.</span>
+                    </div>
+                    <p class="date">2023 - Present</p>
+                    <ul class="exp-list">
+                        <li>Led development of full-stack web applications using React and Node.js</li>
+                        <li>Mentored junior developers and conducted code reviews</li>
+                        <li>Improved application performance by 40% through optimization</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <h3>Full Stack Developer</h3>
+                        <span class="company">Digital Solutions Ltd.</span>
+                    </div>
+                    <p class="date">2022 - 2023</p>
+                    <ul class="exp-list">
+                        <li>Built responsive web applications for diverse client base</li>
+                        <li>Designed and implemented RESTful APIs</li>
+                        <li>Collaborated with UX teams to deliver pixel-perfect designs</li>
+                    </ul>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <h3>Junior Developer</h3>
+                        <span class="company">StartUp Hub</span>
+                    </div>
+                    <p class="date">2021 - 2022</p>
+                    <ul class="exp-list">
+                        <li>Developed frontend features using vanilla JavaScript and HTML/CSS</li>
+                        <li>Fixed bugs and implemented user-requested features</li>
+                        <li>Learned and applied best practices in web development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured e-commerce platform with real-time inventory management and payment processing.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management tool with real-time updates and team collaboration features.</p>
+                    <div class="project-tags">
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Tailwind</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Real-time analytics dashboard with interactive charts and data visualization capabilities.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">D3.js</span>
+                        <span class="tag">TypeScript</span>
+                    </div>
+                    <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CSS/HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Vue.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 83%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Git/GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">I'd love to hear from you. Send me a message!</p>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@abdulportfolio.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Tech City, TC 12345</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" title="CodePen"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Abdul. All rights reserved. Crafted with <i class="fas fa-heart"></i> across the galaxy.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
